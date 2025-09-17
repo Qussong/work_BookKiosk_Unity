@@ -93,6 +93,7 @@ namespace GH_LoanReturn
 
             // 안내메세지 멘트 초기설정
             view.LoanInfoTextList[0].text = model.LoanInfoStringList[0];
+            view.LoanInfoTextList[0].fontSize = 18;
             view.LoanInfoTextList[1].text = model.LoanInfoStringList[1];
 
             // 책 대출 정보 초기 설정
@@ -188,6 +189,7 @@ namespace GH_LoanReturn
 
             // 대출 안내 메세지 변경 로직 추가 예정
             view.LoanInfoTextList[0].text = model.LoanInfoStringList[2];
+            view.LoanInfoTextList[0].fontSize = 20; // font size : 18 -> 20
             view.LoanInfoTextList[1].text = "";
 
             // 

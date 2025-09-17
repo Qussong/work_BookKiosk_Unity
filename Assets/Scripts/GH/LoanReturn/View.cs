@@ -229,7 +229,7 @@ namespace GH_LoanReturn
                 canvas.gameObject.SetActive(false);
             }
         }
-
+        
         public void ControlLoanBookList(int idx, string title, string state)
         {
             if (idx >= loanBookTitleList.Count) return;
